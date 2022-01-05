@@ -1,7 +1,7 @@
 # MQTT-Subscribe-Publish-IoT
 The scope of this project is to demonstrate the functionality of IoT message exachange MQTT protocol. 
 
-####Project Structure:  
+#### Project Structure:  
 ├── publish  
 ├── subscribe  
 ├── docker-compose.yaml  
@@ -9,7 +9,7 @@ The scope of this project is to demonstrate the functionality of IoT message exa
 └── README.md  
 
 This application can run locally but can be deployed as well because is fully dockerized:
-####Run Local:
+#### Run Local:
 It works for python 3.6
 1. Install requrements:  
 `pip install -r requirements.txt`  
@@ -17,7 +17,7 @@ It works for python 3.6
 `python publish/publish_topic.py`  
 `python subscribe/subscribe_topic.py`
 
-####Deploy using docker compose to build the images and run the containers:  
+#### Deploy using docker compose to build the images and run the containers:  
 1. Attached Mode: `docker-compose build && docker-compose up`
 2. Detached mode:  `docker-compose build && docker-compose up -d`
 

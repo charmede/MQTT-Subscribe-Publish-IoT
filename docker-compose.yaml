@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  publish:
+    build: './publish'
+  subscribe:
+    build: './subscribe'
